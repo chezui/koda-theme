@@ -1,0 +1,56 @@
+body {
+    margin: 40px auto;
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+    text-align: justify;
+    font-family: Optima, sans-serif
+}
+
+pre, code {
+    font-family: Monaco, Consolas, monospace;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+div.header h1 {
+    padding-top: 0;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+}
+
+.header-menu {
+    float: right;
+    word-spacing: 8px;
+    font-size: 18px;
+}
+
+.copyright {
+    border-top: 1px solid;
+    padding-top: 8px;
+    text-align: center
+}
+
+.date {
+    text-decoration: italic;
+    text-align: right;
+    display: inline-block;
+}
