@@ -10,7 +10,7 @@
     {{ range .Paginator.Pages }}
     <li>
         <a href="{{ .RelPermalink }}">
-            {{- .Title | markdownify }} - {{ .Date.Format "January 2, 2006" }}
+            {{- .Title | markdownify }} - {{ .Date.Format "2006/01/02" }}
         </a>
     </li>
     {{ end }}

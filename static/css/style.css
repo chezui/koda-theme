@@ -1,6 +1,6 @@
 body {
     margin: 40px auto;
-    max-width: 700px;
+    max-width: 800px;
     line-height: 1.6;
     font-size: 18px;
     color: #444;
@@ -12,6 +12,14 @@ body {
 pre, code {
     font-family: Monaco, Consolas, monospace;
     font-size: 14px;
+}
+
+.title {
+    text-align: center; 
+}
+
+.author {
+    text-align: right;
 }
 
 h1,

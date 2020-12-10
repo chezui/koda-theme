@@ -1,8 +1,17 @@
 <header>
-    <h1>
-        {{- .Title | markdownify -}}
-    </h1>
+        <div class='title'>
+            <h1> {{- .Title | markdownify -}}
+            </h1>
+        </div>
+    {{ if (gt .Params.date 0) }}<h4>{{ .Date.Format "2006/01/02" }}</h4>{{ end }}
+
 </header>
 <article>
+    {{ if or .Params.toc .Site.Params.toc }}
+    <aside>
+        <h3>Table of Contents</h3>
+        {{ .TableOfContents }}
+    </aside>
+    {{ end }}
     {{ .Content }}
 </article>
